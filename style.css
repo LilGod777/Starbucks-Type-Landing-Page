@@ -109,6 +109,15 @@ a {
      margin: 0 auto;
  }
 
+ /* Grid Styles */
+ .grid-col-2 {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 2rem;
+     align-items: center;
+     justify-content: space-between;
+ }
+
  /* Buttons */
 
  .btn {
